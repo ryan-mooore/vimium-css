@@ -1,0 +1,98 @@
+#vomnibar {
+    font-family: inherit;
+    background: #373737;
+    border-radius: 5px;
+    border: 0;
+    z-index: 2139999999;
+    box-shadow: none;
+    text-align: left;
+}
+#vomnibar .vomnibarSearchArea {
+    /* display: block; */
+    padding: 5px;
+    background-color: #393939;
+    border-radius: 5px;
+    border-bottom: 0;
+}
+#vomnibar input {
+    color: #ffffff;
+    font-family: inherit;
+    padding-left: 10px;
+    font-size: 14px;
+    height: 30px;
+    background-color: #222222;
+    border: 0;
+}
+
+#vomnibar ul {
+    background-color: #393939;
+    margin: 0;
+    padding-top: 5px;
+}
+#vomnibar li {
+    border-bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#vomnibar li .vomnibarTopHalf, #vomnibar li .vomnibarBottomHalf {
+    display: inline-block;
+    /* comment out for two-line */
+    overflow: hidden;
+    height: 16px;
+    vertical-align: middle;
+}
+
+#vomnibar li .vomnibarBottomHalf {
+    font-size: 15px;
+    margin-top: 0;
+    padding: 2px 0;
+    font-size: 13px;
+    padding-top: 4px;
+    vertical-align: middle;
+}
+
+#vomnibar li .vomnibarUrl {
+    white-space: nowrap;
+    color: #67a3f3;
+    font-family: inherit;
+}
+
+#vomnibar li .vomnibarTitle .vomnibarMatch {
+    font-weight: bolder;
+    color: #bfbfbf;
+    font-family: inherit;
+}
+
+#vomnibar li .vomnibarMatch {
+
+    font-weight: bolder;
+    color: #67a3f3;
+    font-family: inherit;
+}
+
+#vomnibar li .vomnibarNoInsertText {
+    width: auto;
+}
+
+#vomnibar li .vomnibarSource {
+    color: #bfbfbf;
+    margin-right: 4px;
+    font-family: inherit;
+    width: 50px;
+}
+
+#vomnibar li .vomnibarTitle {
+    color: #ffffff;
+    margin-left: 4px;
+    font-weight: normal;
+    font-family: inherit;
+}
+
+#vomnibar .vimiumReset {
+    font-family: inherit;
+}
+
+#vomnibar li .vomnibarIcon {
+    display: none;
+}
