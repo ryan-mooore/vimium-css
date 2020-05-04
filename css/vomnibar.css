@@ -1,6 +1,18 @@
+:root {
+    --ui-bg-color: #373737;
+    --input-bg-color: #222222;
+    --input-text-color: #ffffff;
+    --li-source-color: #bfbfbf;
+    --li-title-color: #ffffff;
+    --li-url-color: #67a3f3;
+    --li-match-color: #bfbfbf;
+
+    --font-family: inherit;
+}
+
 #vomnibar {
-    font-family: inherit;
-    background: #373737;
+    font-family: var(--font-family);
+    background: var(--ui-bg-color);
     border-radius: 5px;
     border: 0;
     z-index: 2139999999;
@@ -10,22 +22,22 @@
 #vomnibar .vomnibarSearchArea {
     /* display: block; */
     padding: 5px;
-    background-color: #393939;
+    background-color: var(--ui-bg-color);
     border-radius: 5px;
     border-bottom: 0;
 }
 #vomnibar input {
-    color: #ffffff;
-    font-family: inherit;
+    color: var(--input-text-color);
+    font-family: var(--font-family);
     padding-left: 10px;
     font-size: 14px;
     height: 30px;
-    background-color: #222222;
+    background-color: var(--input-bg-color);
     border: 0;
 }
 
 #vomnibar ul {
-    background-color: #393939;
+    background-color: var(--ui-bg-color);
     margin: 0;
     padding-top: 5px;
 }
@@ -54,21 +66,21 @@
 
 #vomnibar li .vomnibarUrl {
     white-space: nowrap;
-    color: #67a3f3;
-    font-family: inherit;
+    color: var(--li-url-color);
+    font-family: var(--font-family);
 }
 
 #vomnibar li .vomnibarTitle .vomnibarMatch {
     font-weight: bolder;
-    color: #bfbfbf;
-    font-family: inherit;
+    color: var(--li-match-color);
+    font-family: var(--font-family);
 }
 
 #vomnibar li .vomnibarMatch {
 
     font-weight: bolder;
-    color: #67a3f3;
-    font-family: inherit;
+    color: var(--li-url-color);
+    font-family: var(--font-family);
 }
 
 #vomnibar li .vomnibarNoInsertText {
@@ -76,21 +88,21 @@
 }
 
 #vomnibar li .vomnibarSource {
-    color: #bfbfbf;
+    color: var(--li-source-color);
     margin-right: 4px;
-    font-family: inherit;
+    font-family: var(--font-family);
     width: 50px;
 }
 
 #vomnibar li .vomnibarTitle {
-    color: #ffffff;
+    color: var(--li-title-color);
     margin-left: 4px;
     font-weight: normal;
-    font-family: inherit;
+    font-family: var(--font-family);
 }
 
 #vomnibar .vimiumReset {
-    font-family: inherit;
+    font-family: var(--font-family);
 }
 
 #vomnibar li .vomnibarIcon {
