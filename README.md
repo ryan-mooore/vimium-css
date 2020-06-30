@@ -14,4 +14,11 @@ The paste the actual css style underneath. Save and you're good to go!
 This styling mimicks the existing Chrome omnibar. Themes use default Chrome light and dark theme colours.
 
 ### Hintmarker
-#### Styles coming soon
+#### Button
+Simple rounded corners button design with a flat drop shadow
+#### Metro
+Simple as it gets (just a rectangle, removes all default styles)
+
+
+## Contributing
+Feel free to add snippets and create a PR!

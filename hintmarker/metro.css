@@ -1,0 +1,23 @@
+div > .vimiumHintMarker {
+    padding: 5px 5px;
+    background-color: var(--hm-bg-color);
+    border: 0;
+    border-radius: 0px;
+    box-shadow: none;
+    background-image: none;
+}
+  
+div > .vimiumHintMarker span {
+    font-size: 10px;
+    font-weight: bold;
+    text-shadow: none;
+    color: var(--hm-text-color);
+}
+  
+div > .vimiumHintMarker > .matchingCharacter {
+    color: var(--hm-text-accent-color);
+}
+
+.vimiumReset {
+    font-family: var(--hm-font-family) !important;
+}
