@@ -1,0 +1,15 @@
+:root {
+    --bg-color: #373737;
+    --select-color: #5b5b5b;
+
+    --input-bg-color: #222222;
+    --input-text-color: #ffffff;
+    
+    --li-source-color: #bfbfbf;
+    --li-title-color: #ffffff;
+    --li-url-color: #67a3f3;
+    
+    --match-text-color: inherit;
+
+    --font-family: inherit;
+}

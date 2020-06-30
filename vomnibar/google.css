@@ -1,0 +1,92 @@
+#vomnibar {
+    background: var(--bg-color);
+    border-radius: 5px;
+    border: 0;
+    z-index: 1;
+    box-shadow: none;
+    text-align: left;
+    font-family: var(--font-family) !important;;
+}
+
+#vomnibar .vimiumReset {
+    font-family: var(--font-family) !important;
+}
+
+#vomnibar .vomnibarSearchArea {
+    padding: 5px;
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    border-bottom: 0;
+}
+#vomnibar input {
+    color: var(--input-text-color);
+    padding-left: 10px;
+    font-size: 14px;
+    height: 30px;
+    background-color: var(--input-bg-color);
+    border: 0;
+}
+
+#vomnibar ul {
+    background-color: var(--bg-color);
+    margin: 0;
+    padding-top: 5px;
+}
+#vomnibar li {
+    border-bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#vomnibar li .vomnibarTopHalf, #vomnibar li .vomnibarBottomHalf {
+    display: inline-block;
+    /* comment out for two-line */
+    overflow: hidden;
+    height: 16px;
+    vertical-align: middle;
+}
+
+#vomnibar li .vomnibarBottomHalf {
+    font-size: 15px;
+    margin-top: 0;
+    padding: 2px 0;
+    font-size: 13px;
+    padding-top: 4px;
+    vertical-align: middle;
+}
+
+#vomnibar li .vomnibarUrl {
+    font-family: var(--font-family);
+    white-space: nowrap;
+    color: var(--li-url-color);
+}
+
+#vomnibar li .vomnibarTitle {
+    font-family: var(--font-family) !important;
+    font-size: 10pt;
+    color: var(--li-title-color);
+    margin-left: 4px;
+    font-weight: normal;
+}
+
+#vomnibar li .vomnibarTitle > .vomnibarMatch {
+    color: var(--li-title-color) !important;
+    font-weight: bold;
+}
+
+#vomnibar li .vomnibarUrl > .vomnibarMatch {
+    color: var(--li-url-color) !important;
+    font-weight: bold;
+}
+
+
+#vomnibar li .vomnibarSource {
+    font-family: var(--font-family); 
+    color: var(--li-source-color);
+    margin-right: 4px;
+    width: 50px;
+}
+
+#vomnibar li .vomnibarNoInsertText { width: auto; }
+#vomnibar li .vomnibarIcon { display: none; }
+#vomnibar li.vomnibarSelected { background-color: var(--select-color); }
