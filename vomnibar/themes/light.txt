@@ -1,0 +1,13 @@
+--bg-color: #ffffff;
+--select-color: #dbdbdb;
+
+--input-bg-color: #ffffff;
+--input-text-color: #202020;
+
+--li-source-color: #626262;
+--li-title-color: #202020;
+--li-url-color: #2868c3;
+
+--match-text-color: inherit;
+
+--font-family: inherit;

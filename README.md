@@ -1,24 +1,33 @@
 # vimium-css
-This repo contains a variety of css snippets intended for improving the mediocre default styling of vimium elements.
+With the Vimium or Vimium-C browser extensions, you can customize the appearence of the vomnibar and UI (hint markers and find dialog). This repo provides a variety of already written styles to use.
+
 
 ## How to use
-Just go to your vimium advanced options > CSS for Vimium UI, and paste your desired theme at the top.
-The paste the actual css style underneath. Save and you're good to go!
+
+1. Vimium and Vimium-C use different styling and tags to each other. Check which ectension you are using and choose the correct style accordingly (`[style]-vimium.css` or `[style]-vimium-c.css`). Copy the style.
+
+2. Go to `Vimium (C) Options > Show Advanced Options > CSS for Vimium (C) UI`, and paste the css style in the box.
+
+3. Choose a theme for the style from its `themes` folder. Paste the theme wherever the styling reads `/* PLACE DESIRED THEME HERE */`.
+
+4. Feel free to change any of the values in the theme to create your custom theme. Once you're done, save and you're good to go!
 
 ## Styles
-### Vomnibar
-#### Chrome
+### Vomnibar styles
+* #### Chrome
 
-![](images/vomnibar-dark.png)
+![](images/vomnibar-google-theme-light.png)
+![](images/vomnibar-google-theme-dark.png)
 
-This styling mimicks the existing Chrome omnibar. Themes use default Chrome light and dark theme colours.
 
-### Hintmarker
-#### Button
-Simple rounded corners button design with a flat drop shadow
-#### Metro
-Simple as it gets (just a rectangle, removes all default styles)
+---
+
+### UI Styles
+* #### Rounded
+Rounded corners UI design
+* #### Metro
+Simple as it gets. Sharp and rectangular
 
 
 ## Contributing
-Feel free to add snippets and create a PR!
+Feel free to add CSS styles or themes and create a PR!

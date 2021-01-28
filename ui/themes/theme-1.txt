@@ -1,0 +1,7 @@
+--bg-color: #4b7bec;
+--accent-color: #3867d6;
+
+--text-color: #ffffff;
+--text-after-color: #4b7bec;
+--hint-font-weight: bold;
+--hud-font-weight: bold;

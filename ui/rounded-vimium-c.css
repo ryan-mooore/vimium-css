@@ -1,0 +1,55 @@
+/* #ui */ /* do not delete this line */
+
+.R {
+    /* PLACE DESIRED THEME HERE (1) */
+}
+
+
+
+.R.HM .LH, .HUD, .HUD.D, .HUD:after, .HUD.D:after{
+    font-family: inherit;
+    background-color: var(--bg-color);
+    text-shadow: none;
+    color: var(--text-color);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: var(--hint-font-weight);
+    background-image: none;
+}
+
+.HUD, .HUD.D, .HUD:after, .HUD.D:after {
+    border-radius: 5px 5px 0px 0px;
+    font-weight: var(--hud-font-weight);
+}
+
+.R.HM .LH .MC {
+    font-weight: bold;
+    color: var(--text-after-color);
+    display: none;
+}
+
+
+/* #find */ /* do not delete this line */
+
+.r {
+    /* PLACE DESIRED THEME HERE (2) */
+}
+
+
+
+.r, .r.D {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding-left: 10px;
+    font-size: 14px;
+    height: 30px;
+    box-shadow: none;
+    border: 0px;
+}
+
+.r #s, .r #i {
+    font-weight: bold;
+}
